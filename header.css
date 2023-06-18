@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+
+body{line-height: 1.5;font-family: 'Poppins', sans-serif;background-image: url('Background.jpg') ;background-repeat: no-repeat;background-attachment: fixed;
+    background-size: 100% 100%;}
+*{margin: 0%;padding: 0%;font-family: "poppins" sans-serif;box-sizing: border-box;}
+video{width: 1300px; height: 400px; margin-left: 20px;}
+img{ width: 700px;height: 450px; margin-left: 20px;}
+.shoe{background: transparent; height: 200px; width: 500px; float: right; margin-right: 20px;}
+.philip{background: transparent;height: 200px; width: 500px;float: right;margin-right: 20px;}
+.store{text-align: center;font-size: 50px;color: aqua;}
+.ps{color: aqua;font-family: 'Courier New', Courier, monospace;font-weight: bold;font-size: 20px;}
+/*This is all about the Description on the home page*/
+.ht{background: transparent;justify-content: space-around;flex-direction: column;align-items: center;margin: 20px;color: white;width: 1300px; height: 300px;
+    font-size: 18px;font-family: sans-serif;border: 1px solid transparent;border-radius: 20px;padding: 5px;text-align: center;
+    cursor: pointer;box-shadow: 1px 1px 20px #14EACFFF,1px 1px 20px #14EACFFF;animation: anime 1s linear infinite;}
+    div:nth-child(1){animation-delay: 0.2s;}
+    div:nth-child(1){animation-delay: 0.4s;}
+    @keyframes anime{0%{filter: hue-rotate(0deg);}100%{filter: hue-rotate(360deg);}}
+    h6{color: red;font-size: 50px;font-family: 'Courier New', Courier, monospace;text-align: center;}
+    h5{color: blue;font-size: 20px;font-family: cursive;text-align: center;}
+    /*It ends right here*/
+    /*here we have the header*/
+.header{height: 80px;width: 100%;}
+nav{display: flex;align-items: center;justify-content: space-between;}
+.checkbtn{font-size: 30px;color: #ffffff;line-height: 80px;margin-right: 40px;cursor: pointer;display: none;}
+#check{display: none;}
+label.logo{color: #ffffff;font-size: 25px;line-height: 80px;padding: 0 100px;font-weight: bold;}
+.daniel{float: right;margin-right: 20px;}
+.daniel li{display: inline-block;margin: 0 5px;line-height: 80px;}
+.daniel li a{text-decoration: none;color: white;padding: 5px 0;border-radius: 3px;position: relative;text-transform: uppercase;}
+.daniel li a::after{content: '';background: white;width: 0%;height: 2px;position: absolute;bottom: 0;left: 0%;transition: 0.5s;}
+.daniel li a:hover::after{width: 100%;}
+/*It ends here as well*/
+/*here are all the css code for the footer*/
+.cynthia{background: aqua;padding: 70px 0;}
+.cd{margin: auto;max-width: 1170px;background-color: aqua;}
+.dc{display: flex;flex-wrap: wrap;}
+ul{list-style: none;}
+.footer-col{width: 25%;padding: 0 15px;} 
+.footer-col h4{font-size: 18px;color: #ffffff;text-transform: capitalize;margin-bottom: 35px;font-weight: 500px;position: relative;}
+.footer-col h4::before{content: '';position: absolute;left: 0;bottom: -10px;height: 2px;box-sizing: border-box;background-color: blue;width: 50px;}
+.footer-col ul li:not(:last-child){margin-bottom: 10px;}
+.footer-col ul li a{font-size: 16px;text-transform: capitalize;color: blue;text-decoration: none;font-weight: 300px;display: block;transition: all 0.3s ease;}
+.footer-col ul li a:hover{color: whitesmoke;padding-left: 8px;}
+.footer-col .social-link a{display: inline-block;height: 40px;width: 40px;background-color:rgb(106, 211, 176);margin: 0 10px 10px 0;text-align: center;
+line-height: 40px;border-radius: 50%;color: white;transition: all o.5s ease;}
+.footer-col .social-link a:hover{color: rgb(58, 58, 227);background-color: white;}
+/*it ends right here*/
+/*responsive*/
+@media(max-width: 767px){.footer-col{ width: 50%; margin-bottom: 30px;}}
+@media(max-width: 574px){.footer-col{ width: 100%;}}
+@media(max-width: 767px){.header{width: 50%;margin-bottom: 30px;}}
+@media(max-width: 360px){.login-box{width: 100%;height: 100vh;}}
+#me{background: url(shoe\ 2.jpg) no-repeat;width: 100%;height: 200vh;background-attachment: fixed;background-size: 100% 100%;}
+@media (max-width: 952px){lable.logo{font-size: 30px;padding: 50px;}
+.daniel li a{font-size: 16px;}}
+@media (max-width: 858px){.checkbtn{ display: block;}
+/*responsive ends here*/
+.daniel{position: fixed;width: 100%;height: 100vh;background: rgb(23, 24, 24);top: 80px;left: 0;text-align: center;}
+.daniel li{ display: block; }
+.daniel li a{font-size: 20px;}}
+.jame{width: 600px;height: 500px;margin-right: 20px;float: right;}
+.david{background: transparent;height: 200px;width: 500px;margin-left: 20px;}
+.na{width: 700px;height: 450px;margin-left: 20px;}
+.ma{ background: transparent; height: 200px; width: 500px; margin-right: 20px; float: right;}
+ /*Here is the css for the about us page*/
+.wrapper{margin-top: 60px;text-align: center;}
+.wrapper h1{font-family: cursive;font-size: 48px;color: blue;margin-bottom: 25px;}
+.wrapper .our_team{display: flex; width: auto;justify-content: center;flex-wrap: wrap;}
+.wrapper .our_team .team_member{width: 250px;margin: 5px;background: #ffff;padding: 20px 10px;}
+.wrapper .our_team .team_member .team_img{max-width: 190px;width: 100%;height: 190px;margin: 0 auto;border-radius: 50%;padding: 5px;cursor: pointer;
+position: relative;}
+.wrapper .our_team .team_member h3{text-transform: uppercase;font-size: 18px;line-height: 18px;letter-spacing: 2px;margin: 15px 0 0;}
+.wrapper .our_team .team_member span{font-size: 10px;}
+.wrapper .our_team .team_member p{margin-top: 20px;font-size: 14px;line-height: 20px;}
+.wrapper .our_team .team_member .social_media{position: absolute; top: 5px;left: 5px; width: 95%;height: 95%;background: rgba(0,0,0,0.65);
+border-radius: 50%; display: flex;justify-content: center;align-items: center; transform: scale(0); transition: all 0.5s ease;}
+.wrapper .our_team .team_member .social_media .item{margin: 0 10px;}
+.wrapper .our_team .team_member .social_media .item .fab{color: #8c7ae6;font-size: 20px;}
+.wrapper .our_team .team_member .team_img:hover .social_media{transform: scale(1);}
+/*And it  stop here*/
+button {padding: 6px 20px; border: none; outline: none; background-color: aquamarine;
+    color: blue; cursor: pointer; border-radius: 5px; font-size: 15px; display: block; 
+    margin: 0 auto; transition: all;width: 200px;} 
+    button:hover{transform: scale(2.02);}
+     
